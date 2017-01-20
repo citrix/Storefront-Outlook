@@ -246,6 +246,7 @@
     <Compile Include="ThisAddIn.cs">
       <SubType>Code</SubType>
     </Compile>
+    <None Include="README.md" />
     <None Include="StorefrontApps-Outlook_TemporaryKey.pfx" />
     <None Include="ThisAddIn.Designer.xml">
       <DependentUpon>ThisAddIn.cs</DependentUpon>
@@ -277,6 +278,11 @@
   <ItemGroup>
     <Resource Include="Images\refresh.png" />
     <Resource Include="Images\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GithubImages\OutlookStorefront-Apps.png" />
+    <None Include="GithubImages\OutlookStorefront-Config1.png" />
+    <None Include="GithubImages\OutlookStorefront-Config2.png" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
